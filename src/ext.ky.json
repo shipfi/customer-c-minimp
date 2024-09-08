@@ -1,0 +1,53 @@
+{
+    "extEnable": true,
+    "extAppid": "wx66bdc0e2183caebc",
+    "directCommit": false,
+    "ext": {
+        "name": "wechat",
+        "ENV": "product",
+        "APP_NAME": "IPSMP",
+        "APP_CHS_NAME": "个人中心",
+        "APP_VERSION": "v2.2.4",
+        "WX_APP_ID": "wx66bdc0e2183caebc",
+        "API_BASE_URL": "https://rs.tenyun.qingger.cn",
+        "API_BASE_URL_WX": "https://wechat.ops.qingger.cn",
+        "WEB_VIEW_BASE_URL": "https://rs.tenyun.qingger.cn",
+        "IMAGE_BASE_URL": "https://saas-cdn.tenyun.runsasoft.com/-1/crm/image/",
+        "SENSOR_URL": "https://rs.tenyun.runsasoft.com/api/node",
+        "CORP_INFO": {},
+        "SITE_INFO": {}
+    },
+    "extPages": {
+        "pages/loading/index": {},
+        "pages/index/index": {},
+        "pages/orderList/index": {},
+        "public-pages/pages/page-1/index": {},
+        "pages/share/index": {},
+        "pages/kydevice/index": {},
+        "pages/externalLink/index": {},
+        "pages/sign-up/index": {}
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": "请确保手机的GPS开关已打开"
+        }
+    },
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+    },
+    "networkTimeout": {
+        "request": 30000,
+        "downloadFile": 30000
+    },
+    "debug": true,
+    "requiredPrivateInfos": [
+        "chooseLocation",
+        "getLocation",
+        "chooseAddress"
+    ]
+
+}
